@@ -1,0 +1,310 @@
+header {
+	background-color: rgb(71, 123, 145);
+	height: 11em;
+	display: flex;
+	flex-direction: row;
+	min-width: 100vw;
+	position: fixed;
+}
+
+.logo {
+	width: 10em;
+	height: 10em;
+	margin: 0.5em;
+	display: flex;
+}
+
+body {
+	background-color: rgba(29, 51, 61, 1);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vw;
+	overflow-x: hidden;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.topnav {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.topnav-buttons {
+	font-size: xx-large;
+	display: flex;
+	flex-shrink: 1;
+	background-color: rgb(71, 123, 145);
+	border: none;
+	color: rgb(245, 166, 21);
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
+
+.searchbar {
+	width: 8em;
+	height: 2em;
+	font-size: large;
+	border-radius: 1em;
+	color: black;
+	background-color: rgb(245, 166, 21);
+	margin-right: 2em;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+
+.rubrik-text {
+	display: flex;
+	color: rgb(245, 166, 21);
+	align-self: center;
+	margin: 0;
+	font-family: 'Pixelify Sans';
+	font-size:xxx-large;
+	margin-top: 4em;
+}
+
+.welcome-text {
+	padding-left: 6em;
+	padding-right: 6em;
+	font-size: large;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(245, 166, 21);
+}
+
+.speakers {
+	display: flex;
+	color: rgb(245, 166, 21);
+	align-self: center;
+	padding-top: 2em;
+}
+
+.speakers-1, .speakers-2, .speakers-3, .speakers-4, .speakers-5, .speakers-6 {
+    display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 8em;
+}
+
+.elon-musk, .mark-zuckerberg, .jeff-bezos, .tim-cook, .sundar-pichai, .sataya-nadella, .jack-dorsey, .bill-gates, .linus-torvalds, .marissa-mayer, .susan-wojcicki, .sheryl-sandberg {
+	width: 18em;
+	height: 25em;
+	border-radius: 2em;
+	border: 2px solid rgb(245, 166, 21);
+}
+
+.text-over-pic {
+	display: flex;
+	flex-direction: row;
+	/* align-self: center; */
+	justify-content: space-evenly;
+	color: rgb(245, 166, 21);
+
+}
+
+.iphone-text-over-pic {
+	display: none;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgba(52, 97, 117, 1);
+	height: 15em;
+	padding: 0;
+	margin: 0;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+    align-self: flex-start;
+	padding-left: 0.5em;
+	width: auto;
+}
+
+.contact-title, p {
+	display: flex;
+	justify-content: flex-start;
+	margin: 0.4em;
+	color: white;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 0em;
+}
+
+.follow-us {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	margin-top: 1em;
+	color: white;
+}
+
+.social-1, .social-2, .social-3, .social-4 {
+	width: 2em;
+	height: 2em;
+}
+
+.map-pin {
+	display: flex;
+	width: 18em;
+	height: 10em;
+	border-radius: 3em;
+	margin: 2em;
+    justify-content: flex-end;
+}
+
+@media (max-width: 947px) {
+
+    header {
+		display: flex;
+		position: relative;
+	}
+	.topnav {
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
+
+	.topnav-buttons {
+		font-size: x-large;
+		/* align-self: center; */
+		position: relative;
+		right: 4em;
+
+	}
+
+	.searchbar {
+		display: flex;
+	    flex-direction: column;
+		position: relative;
+		right: 4em;
+      
+	}
+
+	.rubrik-text {
+		padding: 0.5em 0em;
+		margin: 0em;
+	}
+
+	
+
+    footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: auto;
+		width: auto;
+	}
+
+	.contact {
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+	}
+
+	.contact-title {
+		display: flex;
+		flex-direction: column;
+	}
+ 
+    .contact-info {
+		display: flex;
+		flex-direction: column;
+	}
+
+    
+	.follow-us {
+		display: flex;
+		flex-direction: row;
+	}
+
+    .social-media {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.social-1, .social-2, .social-3, .social-4 {
+		display: flex;
+		flex-direction: row;
+		padding: 1.4em 0.3em;
+	}
+
+	.map-pin {
+		display: flex;
+		flex-grow: 1;
+	}
+
+	
+}
+
+@media (max-width: 550px) {
+	.logo {
+		width: 8em;
+		height: 8em;
+		
+	}
+
+	.topnav-buttons {
+		position: relative;
+		right: 1em;
+	}
+
+	.searchbar {
+		position: relative;
+		right: 0em;
+	}
+
+	.welcome-text {
+		padding: 1em;
+	}
+
+	
+}
+
+@media (max-width: 770px) {
+	.speakers-1, .speakers-2, .speakers-3, .speakers-4, .speakers-5, .speakers-6 {
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		margin: 0;
+	}
+
+	.elon-musk, .mark-zuckerberg, .jeff-bezos, .tim-cook, .sundar-pichai, .sataya-nadella, .jack-dorsey, .bill-gates, .linus-torvalds, .marissa-mayer, .susan-wojcicki, .sheryl-sandberg {
+		margin-bottom: 2em;
+	}
+
+	.text-over-pic {
+		display: none;
+	}
+	.iphone-text-over-pic {
+		display: flex;
+		align-self: center;
+		color: rgb(245, 166, 21);
+		border: 2px solid rgb(245, 166, 21);
+		border-bottom: none;
+		margin: 0em 1em;
+		padding: 0.7em;
+		border-radius: 1em 1em 0 0;
+	}
+}
