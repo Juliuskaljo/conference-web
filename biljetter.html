@@ -11,6 +11,8 @@
 		"
         />
 
+        <link rel="stylesheet" href="biljetter.css" />
+
         <link rel="stylesheet" href="index.html" />
 
         <link
@@ -44,7 +46,70 @@
             </div>
         </header>
 
-        <main></main>
+        <main>
+            <div class="form-container">
+                <div class="form-body"></div>
+
+                <form>
+                    <section class="form-section">
+                        <label for="form-name">Skriv in ditt förnamn*</label>
+                        <input
+                            id="from-name"
+                            type="text"
+                            required
+                            value=""
+                            placeholder="John"
+                        />
+                    </section>
+
+                    <section class="form-section">
+                        <label for="form-name">Skriv in ditt efternamn*</label>
+                        <input
+                            id="from-name"
+                            type="text"
+                            required
+                            value=""
+                            placeholder="Doe"
+                        />
+                    </section>
+
+                    <section class="form-section">
+                        <label for="form-name">Mobilnummer*</label>
+                        <input
+                            id="from-name"
+                            type="number"
+                            required
+                            value=""
+                            placeholder="Mobilnummer"
+                        />
+                    </section>
+
+                    <section class="form-section">
+                        <label>E-Mail*</label>
+                        <input
+                            type="text"
+                            required
+                            value=""
+                            placeholder="exempel.exempel@icloud.com"
+                            maxlength=""
+                        />
+                    </section>
+
+                    <section class="form-section">
+                        <h3>Vänligen välj biljettaltenativ*</h3>
+                        <label for="månad" required>Välj dag:*</label>
+                        <select id="månad" name="månad">
+							<option value="välj biljettaltenativ">Vänligen välj biljettaltenativ*</option>
+                            <option value="3-dagar">3-dagar</option>
+                            <option value="Fredag">Fredag</option>
+                            <option value="Lördag">Lördag</option>
+                            <option value="Söndag">Söndag</option>
+                        </select>
+						<button input type="submit"class="button-1" type="button">Spara</button>
+					</form>
+                    </section>
+            </div>
+        </main>
 
         <footer>
             <div class="contact">

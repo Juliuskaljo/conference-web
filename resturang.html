@@ -17,6 +17,8 @@
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&family=Pixelify+Sans:wght@500&family=Roboto+Condensed&display=swap"
         />
+
+        <link rel="stylesheet" href="resturang.css" />
     </head>
     <body>
         <header>
@@ -44,7 +46,102 @@
             </div>
         </header>
 
-        <main></main>
+        <main>
+            <div class="form-container">
+                <div class="form-body"></div>
+
+                <form>
+                    <section class="form-section">
+                        <label for="form-name">Skriv in ditt förnamn*</label>
+                        <input
+                            id="from-name"
+                            type="text"
+                            required
+                            value=""
+                            placeholder="John"
+                        />
+                    </section>
+
+                    <section class="form-section">
+                        <label for="form-name">Skriv in ditt efternamn*</label>
+                        <input
+                            id="from-name"
+                            type="text"
+                            required
+                            value=""
+                            placeholder="Doe"
+                        />
+                    </section>
+
+                    <section class="form-section">
+                        <label for="form-name">Mobilnummer*</label>
+                        <input
+                            id="from-name"
+                            type="number"
+                            required
+                            value=""
+                            placeholder="Mobilnummer"
+                        />
+                    </section>
+
+                    <section class="form-section">
+                        <label>E-Mail*</label>
+                        <input
+                            type="text"
+                            required
+                            value=""
+                            placeholder="exempel.exempel@icloud.com"
+                            maxlength=""
+                        />
+                    </section>
+
+                    <section class="form-section">
+                        <h3>Vänligen välj mataltenativ*</h3>
+                        <label for="månad" required>Välj måltid:*</label>
+                        <select id="månad" name="månad">
+                            <option value="Välj måltid">Välj måltid*</option>
+                            <option value="3-dagar">Fläsk med löksås</option>
+                            <option value="Fredag">
+                                Mastejsill med kokt potatis
+                            </option>
+                            <option value="Lördag">Friterad blomkål</option>
+                            <option value="Söndag">Köttsoppa</option>
+                        </select>
+                    </section>
+
+                    <section class="form-section">
+                        <label for="allergi">Har du några allergier?</label>
+                        <input
+                            id="from-name"
+                            type="text"
+                            value=""
+                            placeholder="Skriv in allergier här."
+                        />
+                    </section>
+
+                    <section class="form-section">
+                        <h3>Vänligen välj Dryckaltenativ*</h3>
+                        <label for="månad" required>Välj dryck:*</label>
+                        <select id="månad" name="månad">
+                            <option value="Välj dryck">Välj Dryck*</option>
+                            <option value="3-dagar">Mariestad 5.2%</option>
+                            <option value="Fredag">Vitt vin</option>
+                            <option value="Lördag">Rött vin</option>
+                            <option value="Söndag">Vatten</option>
+                        </select>
+
+                        <button
+                            input
+                            type="submit"
+                            class="button-1"
+                            type="button"
+                        >
+                            Spara
+                        </button>
+                    </section>
+                </form>
+            </div>
+        </main>
 
         <footer>
             <div class="contact">

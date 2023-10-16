@@ -20,7 +20,6 @@ body {
 	padding: 0;
 	display: flex;
 	flex-direction: column;
-	min-height: 100vw;
 	overflow-x: hidden;
 }
 
@@ -88,6 +87,15 @@ main {
 	color: rgb(245, 166, 21);
 }
 
+.welcome-text-forelasare {
+	margin-top: 11em;
+	padding-left: 6em;
+	padding-right: 6em;
+	font-size: large;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(245, 166, 21);
+}
+
 .speakers {
 	display: flex;
 	color: rgb(245, 166, 21);
@@ -114,7 +122,12 @@ main {
 	/* align-self: center; */
 	justify-content: space-evenly;
 	color: rgb(245, 166, 21);
+}
 
+.time-and-place {
+	display: flex;
+	align-self: center;
+	color: rgb(245, 166, 21);
 }
 
 .iphone-text-over-pic {
@@ -205,6 +218,10 @@ footer {
 	.rubrik-text {
 		padding: 0.5em 0em;
 		margin: 0em;
+	}
+
+	.welcome-text-forelasare {
+        margin-top: 1em;
 	}
 
 	
@@ -306,5 +323,9 @@ footer {
 		margin: 0em 1em;
 		padding: 0.7em;
 		border-radius: 1em 1em 0 0;
+	}
+
+	.welcome-text-forelasare {
+		padding: 1em;
 	}
 }
