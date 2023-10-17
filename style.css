@@ -1,5 +1,5 @@
 header {
-	background-color: rgb(71, 123, 145);
+	background-color: #3C3A7D;
 	height: 11em;
 	display: flex;
 	flex-direction: row;
@@ -15,7 +15,7 @@ header {
 }
 
 body {
-	background-color: rgba(29, 51, 61, 1);
+	background-color: #3f3d8b;
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -42,9 +42,9 @@ html, body {
 	font-size: xx-large;
 	display: flex;
 	flex-shrink: 1;
-	background-color: rgb(71, 123, 145);
+	background-color: #3C3A7D;
 	border: none;
-	color: rgb(245, 166, 21);
+	color: rgb(255, 255, 255);
 	cursor: pointer;
 }
 
@@ -58,7 +58,7 @@ a {
 	font-size: large;
 	border-radius: 1em;
 	color: black;
-	background-color: rgb(245, 166, 21);
+	background-color: rgb(253, 253, 253);
 	margin-right: 2em;
 }
 
@@ -71,7 +71,7 @@ main {
 
 .rubrik-text {
 	display: flex;
-	color: rgb(245, 166, 21);
+	color: rgb(253, 253, 253);
 	align-self: center;
 	margin: 0;
 	font-family: 'Pixelify Sans';
@@ -84,21 +84,21 @@ main {
 	padding-right: 6em;
 	font-size: large;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	color: rgb(245, 166, 21);
+	color: rgb(255, 255, 255);
 }
 
 .welcome-text-forelasare {
-	margin-top: 11em;
+	margin-top: 11em; 
 	padding-left: 6em;
 	padding-right: 6em;
 	font-size: large;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	color: rgb(245, 166, 21);
+	color: rgb(255, 255, 255);
 }
 
 .speakers {
 	display: flex;
-	color: rgb(245, 166, 21);
+	color: rgb(255, 255, 255);
 	align-self: center;
 	padding-top: 2em;
 }
@@ -113,7 +113,7 @@ main {
 	width: 18em;
 	height: 25em;
 	border-radius: 2em;
-	border: 2px solid rgb(245, 166, 21);
+	border: 2px solid rgb(255, 255, 255);
 }
 
 .text-over-pic {
@@ -121,24 +121,25 @@ main {
 	flex-direction: row;
 	/* align-self: center; */
 	justify-content: space-evenly;
-	color: rgb(245, 166, 21);
+	color: rgb(255, 255, 255);
 }
 
 .time-and-place {
 	display: flex;
 	align-self: center;
-	color: rgb(245, 166, 21);
+	color: rgb(255, 255, 255);
 }
 
 .iphone-text-over-pic {
 	display: none;
 }
 
+
 footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-color: rgba(52, 97, 117, 1);
+	background-color: #3C3A7D;
 	height: 15em;
 	padding: 0;
 	margin: 0;
@@ -276,11 +277,11 @@ footer {
 }
 
 @media (max-width: 550px) {
-	.logo {
+	/* .logo {
 		width: 8em;
 		height: 8em;
 		
-	}
+	} */
 
 	.topnav-buttons {
 		position: relative;
