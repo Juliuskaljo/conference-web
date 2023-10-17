@@ -55,13 +55,9 @@
 	
 }
 
-@media (max-width: 1340px)  {
+@media (max-width: 1489px)  {
 	.day-1 .day-2 .day-3 .forelasare-1 .forelasare-2 .forelasare-3 .forelasare-4 .forelasare-5 .forelasare-6 .forelasare-7 .forelasare-8 .forelasare-9 .forelasare-10 .forelasare-11 .forelasare-12 {
-		min-width: 35em;
-		
-
-		
-		
+		max-width: 35em;
 	}
 
 }
