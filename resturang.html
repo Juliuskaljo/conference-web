@@ -70,7 +70,7 @@
                     </section>
 
                     <section class="form-section">
-                        <label for="form-name">Mobilnummer*</label>
+                        <label for="form-nr">Mobilnummer*</label>
                         <input
                             id="from-name"
                             type="number"
@@ -87,21 +87,20 @@
                             required
                             value=""
                             placeholder="exempel.exempel@icloud.com"
-                            maxlength=""
                         />
                     </section>
 
                     <section class="form-section">
                         <h3>Vänligen välj mataltenativ*</h3>
-                        <label for="månad">Välj måltid:*</label>
-                        <select id="månad" required name="månad">
+                        <label for="måltid">Välj måltid:*</label>
+                        <select id="måltid" required name="måltid">
                             <option value="">Välj måltid*</option>
-                            <option value="3-dagar">Fläsk med löksås</option>
-                            <option value="Fredag">
+                            <option value="kött">Fläsk med löksås</option>
+                            <option value="Fisk">
                                 Mastejsill med kokt potatis
                             </option>
-                            <option value="Lördag">Friterad blomkål</option>
-                            <option value="Söndag">Köttsoppa</option>
+                            <option value="vegetarisk">Friterad blomkål</option>
+                            <option value="soppa">Köttsoppa</option>
                         </select>
                     </section>
 
@@ -117,13 +116,13 @@
 
                     <section class="form-section">
                         <h3>Vänligen välj Dryckaltenativ*</h3>
-                        <label for="månad">Välj dryck:*</label>
-                        <select id="månad" required name="månad">
-                            <option value="Välj dryck">Välj Dryck*</option>
-                            <option value="3-dagar">Mariestad 5.2%</option>
-                            <option value="Fredag">Vitt vin</option>
-                            <option value="Lördag">Rött vin</option>
-                            <option value="Söndag">Vatten</option>
+                        <label for="dryck">Välj dryck:*</label>
+                        <select id="dryck" required name="dryck">
+                            <option value="">Välj Dryck*</option>
+                            <option value="öl">Mariestad 5.2%</option>
+                            <option value="-vitt-vin">Vitt vin</option>
+                            <option value="rött-vin">Rött vin</option>
+                            <option value="vatten">Vatten</option>
                         </select>
 
                         <button

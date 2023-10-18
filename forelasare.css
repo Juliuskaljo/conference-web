@@ -7,6 +7,7 @@
 	
 }
 
+
 .forelasare-pic {
 	width: 18em;
 	height: 25em;
@@ -59,10 +60,17 @@
 
 @media (max-width: 1489px)  {
 	.text-above {
-	padding-left: 10em;
-	padding-right: 10em;
+	padding-left: 15em;
+	padding-right: 15em;
 	
 	}
 
 }
 
+@media (max-width: 1126px)  {
+	.text-above {
+	padding-left: 10em;
+	padding-right: 10em;
+	}
+
+}
