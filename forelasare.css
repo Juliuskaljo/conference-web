@@ -4,7 +4,7 @@
 	align-items: flex-start;
 	flex: 1;
 	align-items: center;
-    
+	
 }
 
 .forelasare-pic {
@@ -13,7 +13,7 @@
 	border-radius: 2em;
 	border: 2px solid rgb(255, 255, 255);
 	order: 2;
-	max-width: 100%;
+	/* max-width: 100%; */
 }
 
 .text {
@@ -55,9 +55,13 @@
 	
 }
 
+
+
 @media (max-width: 1489px)  {
-	.day-1 .day-2 .day-3 .forelasare-1 .forelasare-2 .forelasare-3 .forelasare-4 .forelasare-5 .forelasare-6 .forelasare-7 .forelasare-8 .forelasare-9 .forelasare-10 .forelasare-11 .forelasare-12 {
-		max-width: 35em;
+	.text-above {
+	padding-left: 10em;
+	padding-right: 10em;
+	
 	}
 
 }
