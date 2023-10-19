@@ -13,3 +13,17 @@ main {
 	color: white;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+@media (max-width: 947px) {
+
+	.who-are-we {
+		margin-top: 1em;
+	}
+
+	main {
+		margin-left: 4em;
+		margin-right: 4em;
+	}
+
+}
