@@ -49,6 +49,12 @@ form input:invalid {
 	border: 2px solid red;
 }
 
+.button-1 {
+	border-radius: 0.6em;
+	background-color: rgb(180, 180, 243);
+	height: 2.3em;
+	min-width: 8em;
+}
 
 @media (max-width: 947px) {
 	.form-body {
